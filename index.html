@@ -1,106 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Bootstrap 4 landing page</title>
+	 <!-- add bootstrap css file -->
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Skeleton: Responsive CSS Boilerplate</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="../../dist/css/normalize.css">
-  <link rel="stylesheet" href="../../dist/css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
-
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
 
 </head>
 <body>
+  <!-- navbar -->
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <nav class="navbar navbar-expand-lg fixed-top ">
+	  <a class="navbar-brand" href="#">Home</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
 
-  <div class="section hero">
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <h4 class="hero-heading">Stop coding non-responsive sites. Let users view sites from anywhere.</h4>
-          <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a>
-        </div>
-        <div class="one-half column phones">
-          <img class="phone" src="images/iphone.png">
-          <img class="phone" src="images/iphone.png">
-        </div>
-      </div>
-    </div>
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="#">About</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="contact" href="#">Contact</a>
+	      </li>
+	    </ul>
+
+	  </div>
+</nav>
+<!-- header -->
+
+<header class="header ">
+  <div class = "logo">Hello</div>
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description ">
+  	<h1>
+  		Get One-on-One SAT Tutoring from Harvard Students
+  		<ul>
+        <li>FREE diagnostic test and initial consultation</li>
+        <li>100% Online, 100% Convenient</li>
+        <li>Get paired with an Ivy League mentor and form lasting professional connections</li>
+
+      </ul>
+  		<button class="btn btn-outline-secondary btn-lg">See more</button>
+  	</h1>
   </div>
+   </div>
 
-  <div class="section values">
-    <div class="container">
-      <div class="row">
-        <div class="one-third column value">
-          <h2 class="value-multiplier">67%</h2>
-          <h5 class="value-heading">Purchase Increase</h5>
-          <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
-        </div>
-        <div class="one-third column value">
-          <h2 class="value-multiplier">90%</h2>
-          <h5 class="value-heading">Multi-device Users</h5>
-          <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
-        </div>
-        <div class="one-third column value">
-          <h2 class="value-multiplier">66%</h2>
-          <h5 class="value-heading">Sad Users</h5>
-          <p class="value-description">Percentage of users that are frustrated with page load times.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+</header>
 
-  <div class="section get-help">
-    <div class="container">
-      <h3 class="section-heading">Need help getting started?</h3>
-      <p class="section-description">Skeleton is an amazingly easy place to start with responsive development. If you want to learn more, just visit the documentation!</p>
-      <a class="button button-primary" href="http://getskeleton.com">View Skeleton Docs</a>
-    </div>
-  </div>
+<!-- about section -->
+<div class="about" id="about">
+	<div class="container">
+	  <h1 class="text-center">About Us</h1>
+		<div class="row">
 
-  <div class="section categories">
-    <div class="container">
-      <h3 class="section-heading">Responsive Images</h3>
-      <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
-      <div class="row">
-        <div class="one-half column category">
-          <img class="u-max-full-width" src="images/placeholder.png">
-        </div>
-        <div class="one-half column category">
-          <img class="u-max-full-width" src="images/placeholder.png">
-        </div>
-      </div>
-    </div>
-  </div>
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
 
+				<h3>Our Mission</h3>
+				<p>At Crimson Prep, our mission is to help our students Achieve their goals, Connect with Ivy League Students, and Thrive academically.
+          A big component of our philosophy is encouraging our students to build their network. That is why our tutors seek to form lasting connections with our tutees!</p>
 
+      <h3>Our Tutors</h3>
+      <ul>
+        <li>A group of Harvard undergraduates who have taken and excelled at the SAT</li>
+        <li>Perfect Scorers on Several AP exams</li>
+        <li>Majoring in Premed, Chemistry, Computer Science, Neuroscience, Sociology, etc.</li>
+    </ul>
+			</div>
+		</div>
+	</div>
+</div>
 
+<!-- Contact form -->
+<div class="contact-form" id="contact">
+	<div class="container">
+    <script type= "text/javascript">var submitted = false;</script>
+    <script type="text/javascript">function setSubmitted() {submitted = true; return true;}</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+  onload="if(submitted) {window.location='http://google.com';}"></iframe>
+		<form target="hidden_iframe" method="POST" onsubmit="return setSubmitted(); " action= "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf7nL9zPkeTOX-1GX16cBBiIiqObEKxgGlY0yvZyTi3aIwSog/formResponse">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				  <h1>Interested? Contact Us</h1>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+				   <div class="form-group">
+				   	 <input id="name" required name="entry.944591683" type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+				   </div>
+				   <div class="form-group">
+				   	 <input id="email" type="email" required name="entry.1969510807" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+				   </div>
+				   <div class="form-group">
+				   	 <textarea id="message" required name="entry.1248370415" class="form-control form-control-lg">
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+				   	 </textarea>
+				   </div>
+				   <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- add Javasscript file from js file -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/main.js'></script>
+
 </body>
 </html>
