@@ -37,6 +37,7 @@ html,h1,h2,h3,h4,h5,h6,a{
   background-size: 800px 800px;
   background-repeat: no-repeat;
   background-position: center ;
+  padding-bottom: 50px;
   height: 450px
 
 }
